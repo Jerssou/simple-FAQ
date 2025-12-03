@@ -26,9 +26,15 @@ header{
     margin: 100px 100px 25px 100px;
 }
 h1{
-    padding-bottom: 15px;
-}
+    padding-bottom: 10px;
 
+}
+h2{
+    padding-bottom: 20px;
+}
+p{
+    padding-bottom: 20px;
+}
 a{
     color: #4E80EE;
     text-decoration: none;
@@ -54,11 +60,79 @@ ul, li{
     padding-bottom: 50px;
 }
 hr{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #7f808300;
     margin-left: 450px;
     margin-right: 450px;;
 }
 .dec-W{
     margin-left: 450px;
-    padding: 50px 0px 50px 0px
+    padding: 50px 0px 10px 0px;
+}
+@media screen and (min-width:51px) and (max-width: 639px){
+    main{
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+    .dec-H, .dec-W{
+        margin-left: 0;
+        padding: 20px 0;
+    }
+    hr{
+        margin: 20px 0;
+    }
+    header{
+        padding: 30px 0 20px 0;
+    }
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 20px
+    }
+    .inter-titles{
+        padding-top: 20px;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 1023px){
+    main{
+        margin: 30px auto;
+        padding: 0 40px;
+    }
+    .dec-H, .dec-W{
+        margin-left: 100px;
+        max-width: 500px;
+    }
+    .dec-H{
+        padding-bottom: 40px;
+    }
+    .dec-W{
+        padding: 40px 0 20px 0;
+    }
+    hr{
+        margin: 15px 25px;
+    }
+    header{
+        padding: 40px 0 20px 0;
+    }
+    h1{
+        font-size: 32px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .dec-H, .dec-W{
+        margin-left: 300px;
+        max-width: 600px;
+    }
+    .dec-H{
+        padding-bottom: 25spx;
+    }
+    .dec-W{
+        padding-bottom: 30px 0;
+    }
+    hr{
+        margin: 30px 250px;
+    }
+    header{
+        margin:60px 100px 20px 100px;
+    }
 }
